@@ -1,0 +1,143 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bowlby One SC', cursive;
+    background-color: #FAF3E8;
+}
+
+.hero::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("plush-teal-fabric-texture-picture-free-photograph-photos-public-wallpapers-768x512-768.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #52c6d5;
+    opacity:.9;
+    content: "";
+    z-index:0
+}
+
+.hero {
+    position: relative;
+    display: block;
+
+}
+
+.contact {
+    position: relative;
+    margin: 1rem;
+    padding: .2rem .7rem;
+    font-size: .5rem;
+    border: 0;
+    background-color: #ffe14a;
+    border-radius: 2rem;
+    font-family: 'Bowlby One SC', cursive;
+    box-shadow: 3px 3px 3px #00000077;
+    transition: background-color .2s;
+    cursor: pointer;
+    display: block;
+    z-index:10;
+}
+
+.fixed-contact {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 70%;
+    flex: 1;
+    z-index:1;
+
+}
+
+.footer {
+    position: relative;
+    margin: 0 auto;
+}
+
+.header{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.headline-container {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.headline {
+    background-color: #52c6d5;
+    margin: 3rem auto;
+}
+
+.copy {
+    padding: .5rem 0;
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+}
+
+.attribution {
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button.center {
+    margin: -1rem;
+}
+
+.as {
+    border-radius: 25px;
+    width: 1rem;
+    vertical-align: middle;
+}
+
+@media (min-width: 500px) {
+
+    .contact {
+        padding: .4rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .contact:hover {
+        background-color: #c9b13a;
+        transition: background-color .1s;
+    }
+
+    .logo {
+        width: 600px;
+    }
+
+    .headline-container {
+        text-align: center;
+        padding: 3rem;
+        font-size: 4rem;
+    }
+}
+
+
+
